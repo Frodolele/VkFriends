@@ -1,6 +1,7 @@
 package frodolele.ru.presenters
 
 import android.os.Handler
+import frodolele.ru.R
 import frodolele.ru.views.GeneralView
 import moxy.InjectViewState
 import moxy.MvpPresenter
@@ -15,7 +16,7 @@ class GeneralPresenter: MvpPresenter<GeneralView>() {
             if (isSuccess){
                 viewState.openFriends()
             } else {
-                viewState.showError("Login data is incorrect")
+                viewState.showError(R.string.login_error)
             }
         }, 500)
     }

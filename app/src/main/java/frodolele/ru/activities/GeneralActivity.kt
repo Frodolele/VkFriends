@@ -36,8 +36,8 @@ class GeneralActivity : MvpAppCompatActivity(), GeneralView {
         cpv_general.visibility = View.GONE
     }
 
-    override fun showError(text: String) {
-        Toast.makeText(applicationContext, text, Toast.LENGTH_SHORT).show()
+    override fun showError(textResource: Int) {
+        Toast.makeText(applicationContext, getString(textResource), Toast.LENGTH_SHORT).show()
     }
 
     override fun openFriends() {

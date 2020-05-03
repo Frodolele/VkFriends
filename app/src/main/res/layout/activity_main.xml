@@ -39,7 +39,8 @@
             app:cpv_animAutostart="true"
             app:cpv_color="@color/colorPrimary"
             app:cpv_indeterminate="true"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:visibility="gone"/>
 
     </LinearLayout>
 

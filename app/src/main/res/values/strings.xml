@@ -3,4 +3,6 @@
     <string name="general_hello">Приветствуем!</string>
     <string name="general_enter">Войти</string>
     <string name="friends_search_hint">Enter here</string>
+    <string name="friends_no_items">У вас нет друзей. Вы лох.</string>
+    <string name="login_error">Неправильный логин или пароль</string>
 </resources>

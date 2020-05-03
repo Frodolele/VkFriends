@@ -19,6 +19,8 @@ class FriendsActivity : MvpAppCompatActivity(), FriendsView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_friends)
+
+        friendsPresenter.loadFriends()
     }
 
     override fun showError(textResource: Int) {
@@ -33,5 +35,15 @@ class FriendsActivity : MvpAppCompatActivity(), FriendsView {
     override fun setupFriendsList(friendList: ArrayList<FriendModel>) {
         recycler_friends.visibility = View.VISIBLE
         txt_friends_no_items.visibility = View.GONE
+    }
+
+    override fun startLoading() {
+        txt_friends_no_items.visibility = View.GONE
+        recycler_friends.visibility = View.GONE
+        cpv_friends.visibility = View.VISIBLE
+    }
+
+    override fun endLoading() {
+        cpv_friends.visibility = View.GONE
     }
 }

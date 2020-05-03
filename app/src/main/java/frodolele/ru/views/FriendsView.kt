@@ -11,5 +11,7 @@ interface FriendsView: MvpView {
     fun showError(textResource: Int)
     fun setupEmptyList()
     fun setupFriendsList(friendList: ArrayList<FriendModel>)
+    fun startLoading()
+    fun endLoading()
 
 }
