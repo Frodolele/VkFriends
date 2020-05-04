@@ -48,6 +48,15 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.github.rahatarmanahmed:circularprogressview:2.5.0'
 
+    //Circle Image View
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //Picasso libraries
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Vk SDK
+    implementation 'com.vk:androidsdk:2.1.1'
+
     // Moxy libraries
 //    implementation "com.github.moxy-community:moxy:2.1.2"
     implementation "com.github.moxy-community:moxy-androidx:2.1.2"

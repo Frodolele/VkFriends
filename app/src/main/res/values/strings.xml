@@ -5,4 +5,8 @@
     <string name="friends_search_hint">Enter here</string>
     <string name="friends_no_items">У вас нет друзей. Вы лох.</string>
     <string name="login_error">Неправильный логин или пароль</string>
+    <string name="list_error_notification">Всё бля плохо</string>
+    <string name="login_error_VKSDK" type="id">Неправильный логин или пароль</string>
+    <string name="friends_error_request" type="id">Всё бля плохо</string>
+    <integer name="com_vk_sdk_AppId">7447319</integer>
 </resources>

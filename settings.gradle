@@ -1,2 +1,2 @@
 rootProject.name='Vk-Friends'
-include ':app'
+include ':vksdk_library',':app'
